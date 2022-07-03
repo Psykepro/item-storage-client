@@ -12,7 +12,7 @@ Instructions: https://www.rabbitmq.com/download.html
 
 ## Run with docker:
 ### 1. Locally:
-#### 1.1 Start RabbitMQ from "docker-compose.local.yaml":`
+#### 1.1 Start RabbitMQ from "docker-compose.local.yaml":
 `docker-compose up --build -f ./docker-compose.local.yaml`
 
 #### 1.2. In `./config/config.yml` change property `rabbitmq.host` to `localhost`:
