@@ -1,0 +1,8 @@
+command,uuid,data
+CREATE,85d7112d-5a7b-4a2b-8436-1e0273f0c94b,data-1
+GET,85d7112d-5a7b-4a2b-8436-1e0273f0c94b,
+LIST,,
+DELETE,85d7112d-5a7b-4a2b-8436-1e0273f0c94b,
+CREATE,f2fffc56-b796-43da-b50a-9b2b5589f0d8,data-2
+CREATE,30d35eaa-78a7-4a9b-a557-5b36685640e0,data-3
+LIST,,

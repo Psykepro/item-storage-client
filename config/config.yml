@@ -1,0 +1,21 @@
+rabbit_mq:
+  host: "rabbitmq"
+  port: "5672"
+  user: "guest"
+  password: "guest"
+  queue:
+    name: "items"
+    durable: false
+    auto_delete: false
+    exclusive: false
+    no_wait: false
+    args:
+  publisher:
+    exchange: ""
+    mandatory: false
+    immediate: false
+    content_type: "text/plain"
+logging:
+  level: "info"
+  encoding: "console"
+  mode: "Development"
